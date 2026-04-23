@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: sales_summary
+    columns:
+      - name: Country
+        tests:
+          - not_null
+          - unique
+      - name: bendra_suma
+        tests:
+          - not_null
